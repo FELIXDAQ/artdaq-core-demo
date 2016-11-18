@@ -11,6 +11,7 @@ namespace demo {
         V1720,
         V1724,
         V1190,
+	HTG710FixedDMA,
 	TOY1,
 	TOY2,
         ASCII,
