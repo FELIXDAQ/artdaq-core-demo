@@ -7,7 +7,7 @@
 
 namespace {
   static std::vector<std::string> const
-  names { "MISSED", "HTG710FIXEDDMA", "TOY1", "TOY2", "ASCII", "UDP", "UNKNOWN" };
+  names { "MISSED", "TOY1", "TOY2", "HTG710FIXEDDMA", "ASCII", "UDP", "UNKNOWN" };
 }
 
 

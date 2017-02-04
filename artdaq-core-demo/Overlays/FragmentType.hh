@@ -9,9 +9,9 @@ namespace demo {
 
     enum FragmentType : artdaq::Fragment::type_t
     { MISSED = artdaq::Fragment::FirstUserFragmentType,
-	HTG710FixedDMA,
 	TOY1,
 	TOY2,
+	HTG710FixedDMA,
         ASCII,
         UDP,
         INVALID // Should always be last.
