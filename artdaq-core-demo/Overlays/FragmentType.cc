@@ -5,6 +5,12 @@
 #include <string>
 #include <vector>
 
+namespace {
+  static std::vector<std::string> const
+  names { "MISSED", "HTG710FIXEDDMA", "TOY1", "TOY2", "ASCII", "UDP", "UNKNOWN" };
+}
+
+
 demo::FragmentType
 demo::toFragmentType(std::string t_string)
 {
