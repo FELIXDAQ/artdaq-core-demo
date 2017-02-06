@@ -3,7 +3,7 @@
 #include "artdaq-core/Data/Fragment.hh"
 
 namespace demo {
-    std::vector<std::string> const names { "MISSED", "TOY1", "TOY2", "ASCII", "UDP", "UNKNOWN" };
+  std::vector<std::string> const names { "MISSED", "TOY1", "TOY2", "HTG710FIXEDDMA", "ASCII", "UDP", "UNKNOWN" };
 
   namespace detail {
 
@@ -11,7 +11,7 @@ namespace demo {
     { MISSED = artdaq::Fragment::FirstUserFragmentType,
 	TOY1,
 	TOY2,
-	HTG710FixedDMA,
+	HTG710FIXEDDMA,
         ASCII,
         UDP,
         INVALID // Should always be last.
